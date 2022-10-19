@@ -1,0 +1,23 @@
+GET http://127.0.0.1:8000/api/usuario
+Accept: application/json
+Authorization: Bearer 22|HFp7hUUHOkSAgX4FbhMsCrqLD8jhCsmxLzujIeOq
+
+### Guardar
+POST http://127.0.0.1:8000/api/usuario
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer 22|HFp7hUUHOkSAgX4FbhMsCrqLD8jhCsmxLzujIeOq
+
+{
+    "name": "Pablo",
+    "email": "pablo@mail.com",
+    "password": "123456"
+}
+
+
+### Mostrar
+
+GET http://127.0.0.1:8000/api/usuario/3
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer 22|HFp7hUUHOkSAgX4FbhMsCrqLD8jhCsmxLzujIeOq
